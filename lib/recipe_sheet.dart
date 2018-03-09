@@ -90,6 +90,7 @@ class RecipeSheet extends StatelessWidget {
                         builder: (BuildContext context) {
                           return new RecipeSteps(
                             recipe: recipe,
+                            step: 0,
                           );
                         },
                       ),
